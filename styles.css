@@ -281,7 +281,8 @@ body {
 
 .section-3 {
     padding: 0px 60px 0px 60px;
-    background: var(--color2);
+    background-image: url("images/sec2background.jpg");
+    background-size: cover;
     height: 110vh;
     display: flex;
     align-items: center;
@@ -313,13 +314,14 @@ body {
 
 .circle {
     border-radius: 100%;
-    background: lightblue;
+    background: lightgreen;
     height: 160px;
     width: 160px;
     margin: auto;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;   
+
 }
 
 .section-3-title-right {
@@ -660,11 +662,11 @@ body {
     height: 60px;
     width: 60px;
     border-radius: 100%;
-    background:#3834a4;
+    background: var(--color1);
 
 }
 
-.blue {
-    color: blue;
+.footer-name {
+    color: var(--color1);
 }
 
