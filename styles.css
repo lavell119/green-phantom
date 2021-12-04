@@ -534,6 +534,7 @@ body {
 
 legend {
     padding: 0px;
+    margin: 0px;
     text-align: left;
 }
 
@@ -549,6 +550,8 @@ legend {
     justify-content: space-between;
     flex-direction: column;
     color: white;
+    padding-top: 0px;
+
 }
 
 .input-row {
@@ -559,6 +562,7 @@ legend {
 .table legend {
     font-size: 30px;
     font-weight: bold;
+    line-height: 1;
 }
 
 .input-row input {
