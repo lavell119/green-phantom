@@ -221,11 +221,11 @@ body {
 }
 
 
-
 #sec1img {
-    height: 500px;
-    width: 500px;   
+    height: auto;
+    width: 550px;   
 }
+
 
 .section-1-left {
     width: 50%;
@@ -650,6 +650,10 @@ body {
     
     padding-left: 10px;
     margin-right: 0px;
+}
+
+.email-submit input::placeholder {
+    font-family: "poppins";
 }
 
 .input-button {
