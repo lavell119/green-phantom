@@ -516,6 +516,7 @@ body {
 
 .table {
     width: 90%;
+    
     height: 600px;
     position: relative;
     top: 130px;
@@ -524,6 +525,16 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.input-form-title {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+legend {
+    padding: 0px;
+    text-align: left;
 }
 
 .white {
