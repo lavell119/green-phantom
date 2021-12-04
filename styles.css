@@ -77,6 +77,7 @@ body {
     align-items: center;
     z-index: 1000;
     
+    
 }
 
 .header-middle {
@@ -122,6 +123,10 @@ body {
     align-items: center;
     padding-left: 40px;
 
+}
+
+.award img {
+    padding-right: 10px;
 }
 
 .award {
@@ -209,9 +214,42 @@ body {
     align-items: center;
 }
 
+#img1 {
+    height: 217px;
+    width: 217px;
+    align-self: flex-start;
+    position: relative;
+    top: 80px;
+    left: 120px;
+    z-index: 3;
+}
+
+#img2 {
+    align-self: center;
+    z-index: 2;
+    height: 400px;
+    width: 400px;
+}
+
+#img3 {
+    height: 215px;
+    width: 251px;
+    align-self: flex-end;
+    position: relative;
+    right: 120px;
+    bottom: 80px;
+    z-index: 1;
+
+}
+
 .section-1-left {
     width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
+
 
 .section-1-right {
     width: 50%;
