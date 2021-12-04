@@ -545,7 +545,7 @@ legend {
     width: 74%;
     height: 80%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
     color: white;
